@@ -14,73 +14,71 @@
     <title>Erin Barcaskey</title>
 </head>
 
-<body> 
-    <!-- don't nest containers -->
+<body>
     <!-- BANNER -->
-    <div class="container-fluid">  
-        <div class="row">
-            <div class="col">
-                <img src="images/codebanner.jpg" alt="gray code written by Erin on a black background" class="bannerimg">
-            </div>
-        </div>
-    </div>
-    
+    <!-- TODO make text on top of image responsive -->
+    <img src="images/codebanner.png" alt="gray code written by Erin on a black background" class="imgfluid bannerimg">        
+
     <!-- TODO NAVBAR --> 
     <nav class="navbar">
     </nav>
     
     <!-- ABOUT -->
-    <div class="container lightblock">  
-        <div class="row">
-            <!-- on phone size should be full width, on tablet/laptop should be half-->
-            <div class="col-12 col-md-6 ">
-                <h2>About Me</h2>
-                <!-- TODO circular style, resize-->
-                <img src="images/erin profile.jpg" alt="Profile picture of Erin" class="profileimg"> 
-            </div>
-            <div class="col-12 col-md-6">
-                <p>About Me text 1</p>
-                <p>About Me text 2</p>
+    <div class="lightblock">
+        <div class="container">  
+            <div class="row">
+                <!-- on phone size should be full width, on tablet/laptop should be half-->
+                <div class="col-12 col-md-6">
+                    <h2 class="text-center">About Me</h2>
+                    <img src="images/erin profile.jpg" alt="Profile picture of Erin" class="profileimg mx-auto d-block"> 
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- text is currently RIGHT ALIGNED, need to make it centered while still being left-justified -->
+                    <p>About Me text 1</p>
+                    <p>About Me text 2</p>
+                </div>
             </div>
         </div>
     </div>
     
     <!-- EXPERIENCE -->
-    <div class="container darkblock">  
-        <div class="row">
-            <div class="col-12 col-md-6 ">
-                <h2>Experience</h2>
-            </div>
-        </div>
-
-        <!-- TODO carousel, entire row needs to change -->
-        <div class="row">
-            <div class="col-md-5">
-                <!-- logo for each company/experience position-->
-            </div>
-            <div class="col-md-7">
-                <!-- not sure if I need row divs, just divs, or something else (rows always need cols) -->
-                <div class="row">
-                    <div class="col">
-                        <p>My Title</p>
-                        <p>Company Name</p>
-                        <p>Dates</p>
-                    </div>
+    <div class="darkblock">
+        <div class="container">  
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Experience</h2>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <p>Description of work experience</p>
+            </div>
+
+            <!-- TODO carousel, entire row needs to change -->
+            <div class="row">
+                <div class="col-md-5">
+                    <!-- logo for each company/experience position-->
+                </div>
+                <div class="col-md-7">
+                    <!-- not sure if I need row divs, just divs, or something else (rows always need cols) -->
+                    <div class="row">
+                        <div class="col">
+                            <p>My Title</p>
+                            <p>Company Name</p>
+                            <p>Dates</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>Description of work experience</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-        
+
     <!-- SKILLS -->
     <div class="container lightblock">  
             <div class="row">
                 <div class="col-12 col-md-6 ">
-                    <h2>Skills</h2>
+                    <h2 class="text-center">Skills</h2>
                 </div>
             </div>
             <div class="row">
@@ -178,7 +176,7 @@
     <div class="container darkblock">  
         <div class="row">
             <div class="col-12 col-md-6">
-                <h2>Projects</h2>
+                <h2 class="text-center">Projects</h2>
             </div>
         </div>
         <div class="row">
@@ -231,7 +229,7 @@
     <!-- RESUME -->
     <div class="container lightblock">  
         <div class="row">
-            <h2>Resume</h2>
+            <h2 class="text-right">Resume</h2>
 
         </div>
     </div>
