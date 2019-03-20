@@ -14,7 +14,7 @@
     </head>
 
     <body> 
-        <!-- multiple containers within same page? -->
+        <!-- don't nest containers -->
         <!-- BANNER -->
         <div class="container">  
             <div class="row">
@@ -24,44 +24,213 @@
         </div>
         
         <!-- TODO NAVBAR --> 
-        
+        <nav class="navbar">
+            
+        </nav>
         
         <!-- ABOUT -->
         <div class="container">  
             <div class="row">
-                <h1>About</h1>
-
+                <!-- on phone size should be full width, on tablet/laptop should be half-->
+                <div class="col-12 col-md-6 ">
+                    <h2>About Me</h2>
+                    <!-- TODO circular style, resize-->
+                    <img src="images/erin profile.jpg" alt="Profile picture of Erin"> 
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>About Me text 1</p>
+                    <p>About Me text 2</p>
+                </div>
             </div>
         </div>
         
         <!-- SKILLS -->
         <div class="container">  
             <div class="row">
-                <h1>Skills</h1>
+                <div class="col-12 col-md-6 ">
+                    <h2>Skills</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3>Soft Skills</h3>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- icons in this div-->
+                        </div>
+                        <div class="col-9">
+                            <!-- text in this div -->
+                            <h4>Skill Name</h4>
+                            <p>Skill Description</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- icons in this div-->
+                        </div>
+                        <div class="col-9">
+                            <!-- text in this div -->
+                            <h4>Skill Name</h4>
+                            <p>Skill Description</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- icons in this div-->
+                        </div>
+                        <div class="col-9">
+                            <!-- text in this div -->
+                            <h4>Skill Name</h4>
+                            <p>Skill Description</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- icons in this div-->
+                        </div>
+                        <div class="col-9">
+                            <!-- text in this div -->
+                            <h4>Skill Name</h4>
+                            <p>Skill Description</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-12 col-md-6">
+                    <h3>Technical Skills</h3>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- icons in this div-->
+                        </div>
+                        <div class="col-9">
+                            <!-- text in this div -->
+                            <h4>Skill Name</h4>
+                            <p>Skill Description</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- icons in this div-->
+                        </div>
+                        <div class="col-9">
+                            <!-- text in this div -->
+                            <h4>Skill Name</h4>
+                            <p>Skill Description</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- icons in this div-->
+                        </div>
+                        <div class="col-9">
+                            <!-- text in this div -->
+                            <h4>Skill Name</h4>
+                            <p>Skill Description</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- icons in this div-->
+                        </div>
+                        <div class="col-9">
+                            <!-- text in this div -->
+                            <h4>Skill Name</h4>
+                            <p>Skill Description</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         
         <!-- EXPERIENCE -->
         <div class="container">  
             <div class="row">
-                <h1>Experience</h1>
+                <div class="col-12 col-md-6 ">
+                    <h2>Experience</h2>
+                </div>
+            </div>
 
+            <!-- TODO carousel, entire row needs to change -->
+            <div class="row">
+                <div class="col-md-5">
+                    <!-- logo for each company/experience position-->
+                </div>
+                <div class="col-md-7">
+                    <!-- not sure if I need row divs, just divs, or something else (rows always need cols) -->
+                    <div class="row">
+                        <div class="col">
+                            <p>My Title</p>
+                            <p>Company Name</p>
+                            <p>Dates</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>Description of work experience</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
             
         <!-- PROJECTS -->
         <div class="container">  
             <div class="row">
-                <h1>Projects</h1>
+                <div class="col-12 col-md-6 ">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <p>Overall Description</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- each individual project -->
+                    <!-- each box will open a lightbox modal window with more details of 
+                    the project, images, link to project 3-->
+                    <!-- include img, text will be on top of img -->
+                    <h3>Project Title</h3>
 
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- each individual project -->
+                    <h3>Project Title</h3>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- each individual project -->
+                    <h3>Project Title</h3>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- each individual project -->
+                    <!-- each box will open a lightbox modal window with more details of 
+                    the project, images, link to project 3-->
+                    <!-- include img, text will be on top of img -->
+                    <h3>Project Title</h3>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- each individual project -->
+                    <h3>Project Title</h3>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- each individual project -->
+                    <h3>Project Title</h3>
+
+                </div>
             </div>
         </div>
 
         <!-- RESUME -->
         <div class="container">  
             <div class="row">
-                <h1>Resume</h1>
+                <h2>Resume</h2>
 
             </div>
         </div>
@@ -84,7 +253,7 @@
         
         <div class="container">  
             <div class="row">
-                <h1>Footer</h1>
+                <h2>Footer</h2>
 
             </div>
         </div>
