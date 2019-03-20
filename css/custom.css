@@ -1,0 +1,29 @@
+/******** START: images ********/
+.bannerimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.profileimg {
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+/******** END: images ********/
+
+
+/******** START: backgrounds ********/
+.lightblock {
+    background-color: white;
+    color: #4d4d4d;
+}
+
+.darkblock {
+    background-color: #4d4d4d; 
+    color: white;
+}
+
+
+/******** END: backgrounds ********/
