@@ -28,7 +28,7 @@
     </nav>
     
     <!-- ABOUT -->
-    <div class="lightblock">
+    <div class="lightblock" id="about">
         <div class="container">  
             <div class="row">
                 <!-- on phone size should be full width, on tablet/laptop should be half-->
@@ -46,7 +46,7 @@
     </div>
     
     <!-- EXPERIENCE -->
-    <div class="darkblock">
+    <div class="darkblock" id="experience">
         <div class="container">  
             <div class="row">
                 <div class="col-12">
@@ -79,15 +79,16 @@
     </div>
 
     <!-- SKILLS -->
-    <div class="container lightblock">  
+    <div class="lightblock" id="skills">
+        <div class="container">  
             <div class="row">
-                <div class="col-12 col-md-6 ">
+                <div class="col-12">
                     <h2 class="text-center">Skills</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <h3>Soft Skills</h3>
+                    <h3 class="text-center">Soft Skills</h3>
                     <div class="row">
                         <div class="col-3">
                             <!-- icons in this div-->
@@ -131,7 +132,7 @@
                 </div>
     
                 <div class="col-12 col-md-6">
-                    <h3>Technical Skills</h3>
+                    <h3 class="text-center">Technical Skills</h3>
                     <div class="row">
                         <div class="col-3">
                             <!-- icons in this div-->
@@ -174,69 +175,84 @@
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 
+
     <!-- PROJECTS -->
-    <div class="container darkblock">  
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <h2 class="text-center">Projects</h2>
+    <div class="darkblock" id="projects">
+        <div class="container">  
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Projects</h2>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <p>Overall Description</p>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">Overall Description</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <!-- each individual project -->
-                <!-- each box will open a lightbox modal window with more details of 
-                the project, images, link to project 3-->
-                <!-- include img, text will be on top of img -->
-                <h3>Project Title</h3>
+            <div class="row">
+                <!-- wanted to add "col-sm-6" but it will mess it all up -->
+                <div class="col-12 col-md col-lg-4">
+                    <!-- each individual project -->
+                    <!-- each box will open a lightbox modal window with more details of 
+                    the project, images, link to project 3-->
+                    <!-- include img, text will be on top of img -->
+                    <div class="text-center experiencebox">
+                        <h3 class="experiencetitle">Project Title</h3>
+                        <p class="experiencecompany">Company or Class</p>
+                        <p class="experiencedates">Dates</p>
+                        <img href="#" alt="" class="experienceimg">
+                        <p class="experiencetext">Text experience</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md col-lg-4">
+                    <div class="text-center experiencebox">
+                        <h3>Project Title</h3>
+                    </div>
 
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <!-- each individual project -->
-                <h3>Project Title</h3>
+                </div>
+                <div class="col-12 col-md col-lg-4">
+                    <div class="text-center experiencebox">
+                        <h3>Project Title</h3>
+                    </div>
 
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <!-- each individual project -->
-                <h3>Project Title</h3>
+<!-- TODO format with padding later -->
 
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <!-- each individual project -->
-                <!-- each box will open a lightbox modal window with more details of 
-                the project, images, link to project 3-->
-                <!-- include img, text will be on top of img -->
-                <h3>Project Title</h3>
+            <div class="row">
+                <div class="col-12 col-md col-lg-4">
+                    <div class="text-center experiencebox">
+                        <h3>Project Title</h3>
+                    </div>
 
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <!-- each individual project -->
-                <h3>Project Title</h3>
+                </div>
+                <div class="col-12 col-md col-lg-4">
+                    <div class="text-center experiencebox">
+                        <h3>Project Title</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md col-lg-4">
+                    <div class="text-center experiencebox">
+                        <h3>Project Title</h3>
+                    </div>
 
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <!-- each individual project -->
-                <h3>Project Title</h3>
-
+                </div>
             </div>
         </div>
     </div>
 
     <!-- RESUME -->
-    <div class="container lightblock">  
-        <div class="row">
-            <h2 class="text-right">Resume</h2>
+    <div class="lightblock" id="resume">
+        <div class="container">  
+            <div class="row">
+                <h2 class="text-right">Resume</h2>
 
+            </div>
         </div>
-    </div>
+    </div>  
 
     <!-- CDN Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -253,11 +269,12 @@
 
 <footer>
     <!-- copyright info, what tech I used to build the site -->
-    
-    <div class="container darkblock">  
-        <div class="row">
-            <h2>Footer</h2>
+    <div class="darkblock">
+        <div class="container darkblock">  
+            <div class="row">
+                <h2 class="text-center">Footer</h2>
 
+            </div>
         </div>
     </div>
 </footer>

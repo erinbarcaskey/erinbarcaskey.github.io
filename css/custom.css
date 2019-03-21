@@ -27,8 +27,41 @@
     color: white;
 }
 
-
 /******** END: backgrounds ********/
 
 
+/******** START: experience ********/
+.experiencebox {
+    background-color: white;
+    color: #4d4d4d;
+    height: 200px;
+    margin-bottom: 3em;
+    /* add background image here for entire box */
+}
 
+.experiencetitle {
+    font-size: 1.5em;
+    font-style: bold;
+}
+
+.experiencecompany {
+    font-size: 1.5em;
+}
+
+/* modal window only */
+.experiencedates {
+    font-size: 1em;
+}
+
+/* modal window only */
+.experiencetext {
+    font-size: .5em;
+}
+
+/* modal window only */
+.experienceimg {
+    width: 200px;
+    height: auto;
+}
+
+/******** END: experience ********/
