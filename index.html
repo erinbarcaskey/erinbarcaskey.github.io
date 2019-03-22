@@ -23,11 +23,38 @@
 
 <body>
     <!-- BANNER -->
-    <!-- TODO make text on top of image responsive -->
-    <img src="images/codebanner.png" alt="gray code written by Erin on a black background" class="imgfluid bannerimg">        
+    <!-- TODO jumbotron, make text on top of image responsive -->
+    <img src="images/codebannersmall.png" alt="gray code written by Erin on a black background" class="imgfluid bannerimg">        
 
-    <!-- TODO NAVBAR --> 
-    <nav class="navbar">
+    <!-- TODO add space at top so when  -->
+    <nav class="navbar navbar-expand-sm sticky-top bg-dark navbar-dark">      
+        <!-- TODO blue box around name? -->
+        <a class="navbar-brand" href="#">Erin Barcaskey</a>
+
+        <!-- hamburger turn into X -->
+        <button type="button" class="navbar-toggler" data-target="#collapsenav" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>        
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapsenav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     
     <!-- ABOUT -->
@@ -46,8 +73,8 @@
                         I decided to study Web Development at Lipscomb University in Nashville, Tennessee. Web 
                         Development allows me to integrate my passion for design and interest in computing.</p>
                     <p>Learning about accessibility and usability led me to research user experience and user interface. 
-                        Reading stories from designers and users helped me realize the importance of making sure 
-                        applications are designed around their users, not around the company’s ideas of how applications 
+                        Reading stories from designers and users emphasized the importance of designing and building 
+                        applications around their users, not around the company’s ideas of how applications 
                         should be made.</p>
                 </div>
             </div>
@@ -81,29 +108,6 @@
                         <!-- slideshow -->
                         <div class="carousel-inner">
                             <div class="carousel-item expslide active">
-    <!-- TODO fix styling-->
-                                <div class="row">
-                                    <div class="col-12 col-md-4">
-                                        <!-- logo for each company/experience position-->
-                                        <img src="" alt="" height="200px" width="200px">
-                                    </div>
-                                    <div class="col-12 col-md-8">
-                                        <!-- not sure if I need row divs, just divs, or something else (rows always need cols) -->
-                                        <div class="row">
-                                            <div class="col">
-                                                <p class="experiencetitle">Web Development Intern</p>
-                                                <!-- could link company -->
-                                                <p class="experiencecompany">Jackson</p>
-                                                <p class="experiencedates">Summer 2018</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <p class="experiencetext">Description of work experience</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
                             </div>
                             <div class="carousel-item expslide">
@@ -137,14 +141,12 @@
                     <a class="carousel-control-next" href="#expcarousel" data-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>          
-
                 </div>                     
-            </div> 
-
-            
+            </div>            
         </div>
     </div>
 
+  
     <!-- SKILLS -->
     <div class="lightblock" id="skills">
         <div class="container">  
@@ -352,7 +354,10 @@
 <footer class="darkblock" id="footer">
     <div class="container">  
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-sm-6">
+                <!-- add linkedin link, github link, email for contact -->
+            </div>
+            <div class="col-12 col-sm-6">
                 <ul>
                     <li><a href=#>Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -362,14 +367,11 @@
                     <li><a href="#resume">Resume</a></li>
                 </ul>
             </div>
-
         </div>
-        <!-- copyright -->
-        <p>&copy; 2019 Erin Barcaskey</p>
-        <!-- add linkedin link, github link -->
 
-        <p>Website built using <a href="https://getbootstrap.com/">Bootstrap</a></p>
+        <!-- copyright -->
+        <p class="text-center">&copy; 2019 Erin Barcaskey</p>
+        <p class="text-center">Website built using <a href="https://getbootstrap.com/">Bootstrap</a></p>
     </div>
 </footer>
-<!-- TODO fix white space at the bottom -->
 </html>

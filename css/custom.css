@@ -26,6 +26,7 @@
 
 .darkblock {
     background-color: #4d4d4d; 
+    /* bootstrap dark background color, $gray-800: #343a40 !default; // dark */
     color: white;
     padding-top: 3em;
     padding-bottom: 3em;
@@ -88,6 +89,10 @@
 /******** END: experience ********/
 
 /******** START: footer ********/
-
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 /******** START: footer ********/
