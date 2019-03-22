@@ -29,17 +29,23 @@
     
     <!-- ABOUT -->
     <div class="lightblock" id="about">
-        <div class="container">  
+        <div class="container">
             <div class="row">
                 <!-- on phone size should be full width, on tablet/laptop should be half-->
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-5">
                     <h2 class="text-center">About Me</h2>
                     <img src="images/erin profile.jpg" alt="Profile picture of Erin" class="profileimg mx-auto d-block"> 
                 </div>
                 <div class="col-12 col-md-6">
                     <!-- text is currently RIGHT ALIGNED, need to make it centered while still being left-justified -->
-                    <p>About Me text 1</p>
-                    <p>About Me text 2</p>
+                    <p>Growing up, I was always interested in art, design, and technology. My senior year of high school 
+                        I took an AP Computer Science course, where I was first introduced to coding. 
+                        I decided to study Web Development at Lipscomb University in Nashville, Tennessee. Web 
+                        Development allows me to integrate my passion for design and interest in computing.</p>
+                    <p>Learning about accessibility and usability led me to research user experience and user interface. 
+                        Reading stories from designers and users helped me realize the importance of making sure 
+                        applications are designed around their users, not around the company’s ideas of how applications 
+                        should be made.</p>
                 </div>
             </div>
         </div>
@@ -53,6 +59,89 @@
                     <h2 class="text-center">Experience</h2>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <!-- CAROUSEL STARTS HERE -->
+                    <div id="expcarousel" class="carousel slide" data-ride="carousel">
+                        <!-- indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#expcarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#expcarousel" data-slide-to="1"></li>
+                            <li data-target="#expcarousel" data-slide-to="2"></li>
+                            <li data-target="#expcarousel" data-slide-to="3"></li>
+                            <li data-target="#expcarousel" data-slide-to="4"></li>
+                            <li data-target="#expcarousel" data-slide-to="5"></li>
+                            <li data-target="#expcarousel" data-slide-to="6"></li>
+                            <li data-target="#expcarousel" data-slide-to="7"></li>
+                        </ul>
+
+                        <!-- slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item expslide active">
+                                
+                                
+
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <!-- logo for each company/experience position-->
+                                        <img src="" alt="" height="200px" width="200px">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <!-- not sure if I need row divs, just divs, or something else (rows always need cols) -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="experiencetitle">Web Development Intern</p>
+                                                <!-- could link company -->
+                                                <p class="experiencecompany">Jackson</p>
+                                                <p class="experiencedates">Summer 2018</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="experiencetext">Description of work experience</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="carousel-item expslide">
+                                <h3>Experience Slide 2</h3>
+                            </div>
+                            <div class="carousel-item">
+
+                            </div>
+                            <div class="carousel-item">
+
+                            </div>
+                            <div class="carousel-item">
+
+                            </div>
+                            <div class="carousel-item">
+
+                            </div>
+                            <div class="carousel-item">
+
+                            </div>
+                            <div class="carousel-item">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- controls -->
+                     <a class="carousel-control-prev" href="#expcarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#expcarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>          
+
+                </div>                     
+            </div> 
+
+
 
             <!-- TODO carousel, entire row needs to change -->
             <div class="row">
@@ -194,11 +283,10 @@
             </div>
             <div class="row">
                 <!-- wanted to add "col-sm-6" but it will mess it all up -->
-                <div class="col-12 col-md col-lg-4">
-                    <!-- each individual project -->
-                    <!-- each box will open a lightbox modal window with more details of 
-                    the project, images, link to project 3-->
-                    <!-- include img, text will be on top of img -->
+                <!-- each individual project -->
+                <!-- each box will open a lightbox modal window with more details of 
+                the project, images, link to project 3-->
+                <!-- modal window 
                     <div class="text-center experiencebox">
                         <h3 class="experiencetitle">Project Title</h3>
                         <p class="experiencecompany">Company or Class</p>
@@ -206,43 +294,57 @@
                         <img href="#" alt="" class="experienceimg">
                         <p class="experiencetext">Text experience</p>
                     </div>
+                -->
+
+                <!-- all need to link to separate modal windows -->
+                <div class="col-12 col-md col-lg-4">                  
+                    <!-- need to add separate background image to each block -->
+                    <div class="text-center experiencebox">
+                        <h3 class="experiencetitle">Project Title</h3>
+                        <p class="experiencecompany">Company or Class</p>
+                    </div>
                 </div>
                 <div class="col-12 col-md col-lg-4">
                     <div class="text-center experiencebox">
-                        <h3>Project Title</h3>
+                        <h3 class="experiencetitle">Project Title</h3>
+                        <p class="experiencecompany">Company or Class</p>
                     </div>
-
                 </div>
                 <div class="col-12 col-md col-lg-4">
                     <div class="text-center experiencebox">
-                        <h3>Project Title</h3>
+                        <h3 class="experiencetitle">Project Title</h3>
+                        <p class="experiencecompany">Company or Class</p>
                     </div>
-
                 </div>
             </div>
+
 <!-- TODO format with padding later -->
+<!-- TODO hide last three projects on mobile under a "see more" option -->
 
             <div class="row">
                 <div class="col-12 col-md col-lg-4">
                     <div class="text-center experiencebox">
-                        <h3>Project Title</h3>
-                    </div>
-
-                </div>
-                <div class="col-12 col-md col-lg-4">
-                    <div class="text-center experiencebox">
-                        <h3>Project Title</h3>
+                        <h3 class="experiencetitle">Project Title</h3>
+                        <p class="experiencecompany">Company or Class</p>
                     </div>
                 </div>
                 <div class="col-12 col-md col-lg-4">
                     <div class="text-center experiencebox">
-                        <h3>Project Title</h3>
+                        <h3 class="experiencetitle">Project Title</h3>
+                        <p class="experiencecompany">Company or Class</p>
                     </div>
-
+                </div>
+                <div class="col-12 col-md col-lg-4">
+                    <div class="text-center experiencebox">
+                        <h3 class="experiencetitle">Project Title</h3>
+                        <p class="experiencecompany">Company or Class</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- honors and achievements block? -->
 
     <!-- RESUME -->
     <div class="lightblock" id="resume">
@@ -256,9 +358,9 @@
 
     <!-- CDN Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
     <!-- local -->
     <link rel="JavaScript" href="js/bootstrap.js">
@@ -267,15 +369,27 @@
     <!-- add own js here -->
 </body>
 
-<footer>
-    <!-- copyright info, what tech I used to build the site -->
-    <div class="darkblock">
-        <div class="container darkblock">  
-            <div class="row">
-                <h2 class="text-center">Footer</h2>
-
+<footer class="darkblock" id="footer">
+    <div class="container">  
+        <div class="row">
+            <div class="col-12">
+                <ul>
+                    <li><a href=#>Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
             </div>
+
         </div>
+        <!-- copyright -->
+        <p>&copy; 2019 Erin Barcaskey</p>
+        <!-- add linkedin link, github link -->
+
+        <p>Website built using <a href="https://getbootstrap.com/">Bootstrap</a></p>
     </div>
 </footer>
+<!-- TODO fix white space at the bottom -->
 </html>

@@ -9,8 +9,8 @@
 .profileimg {
     /* vertical-align: middle; */
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
 }
 
 /******** END: images ********/
@@ -20,11 +20,16 @@
 .lightblock {
     background-color: white;
     color: #4d4d4d;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .darkblock {
     background-color: #4d4d4d; 
     color: white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    /* TODO change hyperlink color and hover color */
 }
 
 /******** END: backgrounds ********/
@@ -35,17 +40,19 @@
     background-color: white;
     color: #4d4d4d;
     height: 200px;
-    margin-bottom: 3em;
-    /* add background image here for entire box */
+    margin-bottom: 2em;
+    padding-top: 4em;
+    /* add background image here for entire box
+    actually need to have separate images for each block */
 }
 
 .experiencetitle {
     font-size: 1.5em;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .experiencecompany {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 /* modal window only */
@@ -64,4 +71,21 @@
     height: auto;
 }
 
+.expslide{
+    /* TODO change bkg color to white after testing */
+    background-color: rgb(139, 139, 139);
+    color: #4d4d4d;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    min-height: 300px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /******** END: experience ********/
+
+/******** START: footer ********/
+
+
+/******** START: footer ********/
