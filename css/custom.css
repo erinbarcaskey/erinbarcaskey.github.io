@@ -1,3 +1,12 @@
+/******** START: colors ********/
+.darkgray { 
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/******** END: colors ********/
+
+
 /******** START: images ********/
 .bannerimg {
     max-width: 100%;
@@ -25,7 +34,7 @@
 }
 
 .darkblock {
-    background-color: #4d4d4d; 
+    background-color: #343a40; 
     /* bootstrap dark background color, $gray-800: #343a40 !default; // dark */
     color: white;
     padding-top: 3em;
