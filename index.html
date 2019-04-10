@@ -291,32 +291,40 @@
                 <div class="col-12 col-md col-lg-4">                  
                     <!-- need to add separate background image to each block -->
                     <div class="text-center projectbox">
-                        <h3 class="projecttitle">Project Title</h3>
-                        <p class="projectcompany">Company or Class</p>
+                        <button class="btn projectmodal-btn" data-toggle="modal" data-target="#project1">
+                            <h3 class="projecttitle">Project Title</h3>
+                            <p class="projectcompany">Company or Class</p>
+                        </button>
                     </div>
                 </div>
                 <div class="col-12 col-md col-lg-4">
                     <div class="text-center projectbox">
-                        <h3 class="projecttitle">Project Title</h3>
-                        <p class="projectcompany">Company or Class</p>
+                        <button class="btn projectmodal-btn" data-toggle="modal" data-target="#project2">
+                            <h3 class="projecttitle">Project Title</h3>
+                            <p class="projectcompany">Company or Class</p>
+                        </button>
                     </div>
                 </div>
                 <div class="col-12 col-md col-lg-4">
                     <div class="text-center projectbox">
-                        <h3 class="projecttitle">Project Title</h3>
-                        <p class="projectcompany">Company or Class</p>
+                        <button class="btn projectmodal-btn" data-toggle="modal" data-target="#project3">
+                            <h3 class="projecttitle">Project Title</h3>
+                            <p class="projectcompany">Company or Class</p>
+                        </button>
                     </div>
                 </div>
             </div>
 
 <!-- TODO format with padding later -->
 <!-- TODO hide last three projects on mobile under a "see more" option -->
-
+    <!--    
             <div class="row">
                 <div class="col-12 col-md col-lg-4">
                     <div class="text-center projectbox">
-                        <h3 class="projecttitle">Project Title</h3>
-                        <p class="projectcompany">Company or Class</p>
+                        <button class="btn projectmodal-btn" data-toggle="modal" data-target="#project4">
+                            <h3 class="projecttitle">Project Title</h3>
+                            <p class="projectcompany">Company or Class</p>
+                        </button>
                     </div>
                 </div>
                 <div class="col-12 col-md col-lg-4">
@@ -332,8 +340,127 @@
                     </div>
                 </div>
             </div>
+    -->    
         </div>
     </div>
+
+    <!-- MODAL WINDOWS FOR PROJECTS -->
+    <div class="modal fade" id="project1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="text-center">Portfolio Website</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <!-- slideshow of images? maybe? still need to figure that out.. maybe carousel within the modal window? -->
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-sm-6">
+                                <p>Designing my portfolio was fun because I could choose elements based on my likes 
+                                    and dislikes. Through my portfolio, I am sharing not only my accomplishments 
+                                    and experiences, but also who I am, which added an extra challenge to the project. </p>
+                                <p>I always start with sketches on physical paper to figure out the organization 
+                                    of a site and the rough design. Using a single page keeps the portfolio clean, 
+                                    while features within the page give options for additional content. </p>
+                                <a href="#">Link to project or code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2" role="dialog" aria-labelledby="project2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">This modal is for Project 2</div> 
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <!-- slideshow of images? maybe? still need to figure that out.. maybe carousel within the modal window? -->
+                            </div>
+                            <div class="col-sm-8">
+                                <p>Lorem ipsum text</p>
+                                <p>Lorem ipsum text</p>
+                                <a href="#">Link to project or code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3" role="dialog" aria-labelledby="project3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">This modal is for Project 3</div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="modal fade" id="project4" role="dialog" aria-labelledby="project4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">This modal is for Project 4</div> 
+                        </div>
+                        <div class="row">
+                        
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    -->
 
     <!-- honors and achievements block? -->
 
