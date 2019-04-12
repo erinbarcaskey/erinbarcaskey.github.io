@@ -8,13 +8,6 @@
 
 
 /******** START: images ********/
-.bannerimg {
-    max-width: 100%;
-    height: auto;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-}
-
 .profileimg {
     /* vertical-align: middle; */
     border-radius: 50%;
@@ -43,6 +36,23 @@
 }
 
 /******** END: backgrounds ********/
+
+/******** START: banner ********/
+.bannerimg {
+    max-width: 100%;
+    height: auto;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+/*
+.jumbotronimage {
+    background-image: url(/images/codebannersmall.png);
+    background-size: cover;
+    height: 100%;
+}
+*/
+/******** END: banner ********/
 
 
 /******** START: project ********/
