@@ -50,6 +50,9 @@
 
 .masthead h1 {
     color: white;  
+    font-size: 10vw;
+    width: 90%;
+    margin: auto;
 }
 
 .masthead .emphasis {
