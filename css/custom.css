@@ -1,3 +1,7 @@
+body { 
+    position: relative;
+}
+
 /******** START: colors ********/
 .darkgray { 
     background-color: #343a40;
@@ -62,6 +66,31 @@
 /******** END: banner ********/
 
 
+/******** START: experience ********/
+
+/*  window only */
+.expslide{
+    /* TODO change bkg color to white after testing */
+    background-color: rgb(206, 206, 206);
+    color: #4d4d4d;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    min-height: 300px;
+    align-content: center;
+}
+
+.explogo {
+    height: 250px;
+    width: 250px;
+}
+
+.dates {
+    font-style: italic;
+}
+
+/******** END: experience ********/
+
+
 /******** START: project ********/
 .projectbox {
     background-color: white;
@@ -99,25 +128,6 @@
 
 /******** END: projects ********/
 
-
-/******** START: experience ********/
-
-/* modal window only */
-.experienceimg {
-    width: 400px;
-    height: auto;
-}
-
-.expslide{
-    /* TODO change bkg color to white after testing */
-    background-color: rgb(206, 206, 206);
-    color: #4d4d4d;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    min-height: 300px;
-}
-
-/******** END: experience ********/
 
 /******** START: footer ********/
 #footer ul {
