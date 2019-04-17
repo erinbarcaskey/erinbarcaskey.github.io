@@ -5,6 +5,13 @@ body {
 .sectionheader {
     padding-top: .25em;
     padding-bottom: .25em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.emphasis {
+    font-weight: bold;
+    color: rgb(42, 152, 255);
 }
 
 /******** START: colors ********/
@@ -92,18 +99,31 @@ body {
     align-content: center;
 }
 
-.explogo {    
-}
-
 .carousel-indicators .active {
     background-color: rgb(42, 152, 255);
 }
 
+.experiencecompany {
+    font-weight: bold;
+}
+
 .dates {
     font-style: italic;
+    font-weight: normal;
 }
 
 /******** END: experience ********/
+
+
+/******** START: project ********/
+.skillrow {
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+
+/******** START: project ********/
+
 
 
 /******** START: project ********/

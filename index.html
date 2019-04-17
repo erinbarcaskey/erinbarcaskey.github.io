@@ -48,7 +48,7 @@
     <!-- TODO add space at top so when  -->
     <nav class="navbar navbar-expand-sm sticky-top bg-dark navbar-dark">      
         <!-- TODO blue box around name? -->
-        <a class="navbar-brand" href="#">Erin Barcaskey</a>
+        <a class="navbar-brand" href="#">&lt;<span class="emphasis">erin</span>barcaskey&gt;</a>
 
         <!-- hamburger turn into X -->
         <button type="button" class="navbar-toggler" data-target="#collapsenav" data-toggle="collapse">
@@ -108,6 +108,7 @@
                     <h2 class="sectionheader text-center">Experience</h2>
                 </div>
             </div>
+            <!-- TODO add a horizontal blue line under each header to match the resume!! -->
             <div class="row">
                 <div class="col">
                     <div id="expcarousel" class="carousel slide" data-ride="carousel">
@@ -132,15 +133,14 @@
                                     <div class="col-9">
                                         <div class="row expslide p-3">
                                             <div class="col-12 col-md-4 my-auto">
-                                                <!-- logo for each company/experience position -->
+                                                <!-- TODO logo for each company/experience position -->
                                                 <img src="images/filler image.png" alt="" class="explogo img-fluid align-middle img-responsive">
                                             </div>
                                             <div class="col-12 col-md-8">
-                                                <!-- not sure if I need row divs, just divs, or something else (rows always need cols) -->
                                                 <div class="row">
                                                     <div class="col">
                                                         <h3 class="experiencetitle pt-2">Web Development Intern</h3>
-                                                        <!-- could link company -->
+                                                        <!-- TODO could link company, bold company name? -->
                                                         <p class="experiencecompany">Jackson - <span class="dates">Summer 2018</span></p>
                                                     </div>
                                                 </div>
@@ -368,7 +368,7 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <h3 class="text-center">Soft Skills</h3>
-                    <div class="row">
+                    <div class="row skillrow">
                         <div class="col-3">
                             <i class="fas fa-brain fa-3x"></i>
                         </div>
@@ -379,7 +379,7 @@
                                 optimizing solutions to make them as efficient as possible.</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row skillrow">
                         <div class="col-3">
                             <i class="fas fa-eye fa-3x"></i>
                         </div>
@@ -390,7 +390,7 @@
                                 experience, attention to detail is critical in research and design.</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row skillrow">
                         <div class="col-3">
                             <i class="fas fa-tty fa-3x"></i>
                         </div>
@@ -401,7 +401,7 @@
                                 and brainstorming together.</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row skillrow">
                         <div class="col-3">
                             <i class="fas fa-users fa-3x"></i>
                         </div>
@@ -416,7 +416,7 @@
     
                 <div class="col-12 col-md-6">
                     <h3 class="text-center">Technical Skills</h3>
-                    <div class="row">
+                    <div class="row skillrow">
                         <div class="col-3">
                             <i class="fas fa-laptop-code fa-3x"></i>
                         </div>
@@ -428,7 +428,7 @@
                                 tools.</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row skillrow">
                         <div class="col-3">
                             <i class="fab fa-adobe fa-3x"></i>
                         </div>
@@ -440,7 +440,7 @@
                                      creating graphics with different feels for each sport. </p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row skillrow">
                         <div class="col-3">
                             <i class="fas fa-user-edit fa-3x"></i>
                         </div>
@@ -451,7 +451,7 @@
                                 their feedback into the design.</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row skillrow">
                         <div class="col-3">
                             <i class="fas fa-edit fa-3x"></i>
                         </div>
@@ -663,8 +663,14 @@
     <div class="lightblock" id="honors">
         <div class="container">  
             <div class="row">
-                <h2 class="text-right">Honors and Achievements</h2>
+                <div class="col-12">
+                    <h2 class="sectionheader text-center">Honors and Achievements</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
 
+                </div>
             </div>
         </div>
     </div>
@@ -672,13 +678,26 @@
     <footer class="page-footer darkblock" id="footer">
         <div class="container-fluid text-center text-md-left">  
             <div class="row">
-                <div class="col-12 col-sm-6">
+                <div class="col-sm-1"></div>
+                <div class="col-12 col-sm-4 mt-2 mb-4">
                     <!-- resume link and short write up -->
+                    <!-- TODO add a horizontal blue line under each header to match the resume!! -->
                     <h4>Resume</h4>
-                    <p></p>
+                    <div class="row">
+                        <div class="col-4">
+                            <!-- Add an image of the resume, click on it to expand it within the page, lightbox -->
+                            <!-- TODO float image RIGHT when on mobile -->
+                            <img src="images/filler image.png" alt="" class="explogo img-fluid align-middle img-responsive">
+                        </div>
+                        <div class="col-6">
+                            <h5>Download</h5>
+                            <p><a href=#>PDF Format</a></p>
+                            <p><a href=#>Word Format</a></p>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="col-12 col-sm-3">
+                <div class="col-12 col-sm-4 mt-2 mb-4">
                     <h4>Contact</h4>
                     <ul>
                         <!-- contact info and buttons -->
@@ -692,7 +711,7 @@
                             <span class="fab fa-github mr-2"></span>erinbarcaskey</a></li>
                     </ul>
                 </div>
-                <div class="col-12 col-sm-3">
+                <div class="col-12 col-sm-3 mt-2 mb-4">
                     <h4>Navigation</h4>
                     <ul>
                         <!-- site map -->
