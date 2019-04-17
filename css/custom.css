@@ -151,16 +151,11 @@ body {
     padding: 0;
 }
 
-#footer li {
-    display: inline;
-    padding-left: 8px;
-}
-
 #footer li a {
     display: inline-block;
-    text-align: center;
     text-decoration: none;
     color: rgba(255,255,255,.5);
+    padding: 5px 5px 0px 0px;
 }
 
 #footer li a:hover {
