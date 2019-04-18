@@ -112,10 +112,27 @@ body {
     font-weight: normal;
 }
 
+.imgcredit {
+    font-style: italic;
+    text-decoration: none;
+}
+
+.imgcredit a {
+    color: #4d4d4d;
+}
+
 /******** END: experience ********/
 
 
-/******** START: project ********/
+/******** START: skills ********/
+.skillheader {
+    padding-top: .25em;
+    padding-bottom: .5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* font-weight: bold; */
+}
+
 .skillrow {
     padding-top: .25em;
     padding-bottom: .25em;
@@ -149,6 +166,16 @@ body {
 .projectmodal-btn {
     width: 100%; 
     height: 100%;   
+}
+
+.projectmodal-header {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.projectmodal-row {
+    margin-top: .5em;
+    margin-bottom: 1em;
 }
 
 /* modal window only */
