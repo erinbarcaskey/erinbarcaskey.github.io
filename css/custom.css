@@ -96,6 +96,18 @@ body {
 /******** END: banner ********/
 
 
+/******** START: navbar ********/
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-nav a:hover {
+    color: #fff;
+    /* text-decoration: underline; */
+}
+/******** END: navbar ********/
+
+
 /******** START: experience ********/
 
 /*  window only */
