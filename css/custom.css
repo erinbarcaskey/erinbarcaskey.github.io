@@ -221,7 +221,12 @@ body {
 
 /******** START: honors ********/
 .honorsimg {
-    max-width: 300px;
+    max-width: 75%;
+}
+
+#honors a {
+    text-decoration: none;
+    color: #4d4d4d;
 }
 
 /******** END: honors ********/
