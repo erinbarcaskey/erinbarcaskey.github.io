@@ -119,6 +119,8 @@ body {
     margin-bottom: 2em;
     min-height: 300px;
     align-content: center;
+    border: 4px solid #fff;
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
@@ -167,13 +169,55 @@ body {
 
 /******** START: project ********/
 .projectbox {
-    background-color: white;
+    background-color: rgb(42, 152, 255);
     color: #4d4d4d;
     height: 200px;
     margin-bottom: 2em;
     /*padding-top: 4em;*/
-    /* add background image here for entire box
-    actually need to have separate images for each block */
+    border: 2px hidden;
+    border-radius: 5px;
+}
+
+.projectbox-img1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/portfoliodesktop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectbox-img1:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/portfoliodesktop.png');
+}
+
+.projectbox-img2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/mirrorsketches.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectbox-img2:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/mirrorsketches.png');
+}
+
+.projectbox-img3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/codementorsketches.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectbox-img3:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/codementorsketches.png');
+}
+
+.projectbox-inner {
+    background-color: #fff;
+    color:#4d4d4d;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border: 1px solid #4d4d4d;
+    border-radius: 5px;
 }
 
 .projecttitle {
@@ -192,7 +236,7 @@ body {
 
 .projectmodal-border {
     border-width: 4px;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #4d4d4d;
 }
 
@@ -233,7 +277,7 @@ body {
 
 /******** START: honors ********/
 .honorsimg {
-    max-width: 75%;
+    max-width: 60%;
 }
 
 #honors a {

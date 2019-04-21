@@ -89,14 +89,14 @@
                     <img src="images/erin profile.jpg" alt="Profile picture of Erin" class="profileimg mb-4 mx-auto d-block"> 
                 </div>
                 <div class="col-12 col-md-6">
-                    <p>Growing up, I was always interested in art, design, and technology. My senior year of high school 
-                        I took an AP Computer Science course, where I was first introduced to coding. 
-                        I decided to study Web Development at Lipscomb University in Nashville, Tennessee. Web 
-                        Development allows me to integrate my passion for design and interest in computing.</p>
-                    <p>Learning about accessibility and usability led me to research user experience and user interface. 
-                        Reading stories from designers and users emphasized the importance of designing and building 
-                        applications around their users, not around the company’s ideas of how applications 
-                        should be made.</p>
+                    <p>After taking an AP Computer Science course my senior year of high school, I 
+                        decided to study computing in college. As I learned more about web development, 
+                        I became passionate about UI/UX, accessibility, usability, and ethical design.</p>
+                    <p>In May of 2019, I graduated from Lipscomb University with a degree in Web 
+                        Application Development and a French minor.</p>
+                    <p>I strive to build and design applications that better the lives of users and solve 
+                        problems in ethical ways. I believe computing can improve world in the hands of 
+                        responsible and creative people, and my goal is to be a part of that change.</p>
                 </div>
             </div>
         </div>
@@ -484,26 +484,32 @@
             <div class="row">
                 <!-- need to add separate background image to each block -->
                 <div class="col-12 col-md col-lg-4">
-                    <div class="text-center projectbox">
+                    <div class="text-center projectbox projectbox-img1">
                         <button class="btn projectmodal-btn" data-toggle="modal" data-target="#project1">
-                            <h3 class="projecttitle">Portfolio Website</h3>
-                            <p class="projectcompany">Independent Work</p>
+                            <div class="projectbox-inner">
+                                <h3 class="projecttitle">Portfolio Website</h3>
+                                <p class="projectcompany">Independent Work</p>
+                            </div>
                         </button>
                     </div>
                 </div>
                 <div class="col-12 col-md col-lg-4">
-                    <div class="text-center projectbox">
+                    <div class="text-center projectbox projectbox-img2">
                         <button class="btn projectmodal-btn" data-toggle="modal" data-target="#project2">
-                            <h3 class="projecttitle">Smart Mirror</h3>
-                            <p class="projectcompany">User Interface Course</p>
+                            <div class="projectbox-inner">
+                                <h3 class="projecttitle">Smart Mirror</h3>
+                                <p class="projectcompany">User Interface Course</p>
+                            </div>
                         </button>
                     </div>
                 </div>
                 <div class="col-12 col-md col-lg-4">
-                    <div class="text-center projectbox">
+                    <div class="text-center projectbox projectbox-img3">
                         <button class="btn projectmodal-btn" data-toggle="modal" data-target="#project3">
-                            <h3 class="projecttitle">CodeMentor</h3>
-                            <p class="projectcompany">Senior Seminar Course</p>
+                            <div class="projectbox-inner">
+                                <h3 class="projecttitle">CodeMentor</h3>
+                                <p class="projectcompany">Senior Seminar Course</p>
+                            </div>
                         </button>
                     </div>
                 </div>
@@ -598,7 +604,7 @@
                         <div class="row projectmodal-row">
                             <div class="col-sm-5">
                                 <!-- TODO change to final image of mirror or video?? screen recording? -->
-                                <img src="images/mirrorsketches.png" class="img-fluid img-responsive pb-4" alt="Early sketches of the smart mirror interface design" >
+                                <img src="images/mirrorsketches.png" class="img-fluid img-responsive" alt="Early sketches of the smart mirror interface design" >
                             </div>
                             <div class="col-sm-7">
                                 <p>The Smart Mirror was built in our User Interface course my senior year. 
@@ -618,8 +624,11 @@
                                     used to navigate through the mirror. Because we completed the mirror 
                                     for our user interface course, the user’s interaction with the design 
                                     was at the forefront of our minds when we first started sketching. </p>
-                                <a href=#>
+                                <!-- TODO add github repo link once it's finished and on github -->
+                                <!--
+                                    <a href=#>
                                     <span class="fab fa-github mr-2"></span>Smart Mirror Repository</a>
+                                    -->
                             </div>
                         </div>
                     </div>
@@ -652,8 +661,9 @@
                                 <img src="images/codementor1.PNG" class="img-fluid img-responsive mb-2" alt="Home page of the CodeMentor site" >
                             </div>
                             <div class="col-sm-7">
-                                <p>CodeMentor is a site developed by a team of three students for my senior seminar course as a 
-                                    resources for college students in computing disciplines. The prototype consolidates 
+                                <p>CodeMentor is a site developed by a team of three students for my senior seminar course as 
+                                    an educational 
+                                    resource for college students in computing disciplines. The prototype consolidates 
                                     resources for specific college courses at specific universities so students can 
                                     learn the material ahead of time for the courses in their future or review topics 
                                     after they take the course. Students log in to their account, and their forward 
