@@ -20,9 +20,6 @@ body {
     height: 1px;
 }
 
-.shortblueline {
-
-}
 
 /******** START: colors ********/
 .darkgray { 
@@ -161,10 +158,7 @@ body {
     padding-top: .25em;
     padding-bottom: .25em;
 }
-
-
 /******** START: project ********/
-
 
 
 /******** START: project ********/
@@ -305,4 +299,52 @@ body {
 #footer li a:hover {
     color: rgba(255, 255, 255, 0.75);
 }
-/******** START: footer ********/
+/******** END: footer ********/
+
+
+/******** START: projects page ********/
+.projectspage {}
+
+.projectshead {
+    height: 40vh;   /* was 100 */
+    min-height: 150px;  /* was 500 */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/codebannersmall.png');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/* need to center */
+.projectshead h1 {
+    color: white;  
+    font-size: 5vw;     /* changed from 10 */
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.projectstitle {
+    height: 30vh;
+    min-height: 100px;
+    text-align: center;
+    
+}
+
+.projectstitle h2 {
+    font-size: 4vw;     /* changed from 10 */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.projectscontent {
+
+}
+
+.projectscontent h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: .1em;
+}
+/******** END: projects page ********/
